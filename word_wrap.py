@@ -26,7 +26,7 @@ class Wrapper:
 class WrapTest(unittest.TestCase):
 
     def setUp(self):
-        print("In method: ", self._testMethodName, self._)
+        print("In method: ", self._testMethodName)
 
     def test_empty(self):
         wrapTest = Wrapper()
